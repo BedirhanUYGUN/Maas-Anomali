@@ -13,6 +13,12 @@ Bu uygulama, personel maaş bordrolarını (PDF) analiz ederek maaş dengesizlik
 - **Penceresiz Çalışma**: Siyah CMD ekranı olmadan, modern web arayüzü ile doğrudan etkileşim.
 - **Otomatik Temizleme**: Her yeni açılışta veritabanını sıfırlayarak "temiz sayfa" sunar.
 
+## 📥 İndirme
+
+| İşletim Sistemi | İşlem |
+| :--- | :--- |
+| **Windows 10/11** | [� **İndir (v0.2.3 EXE)**](https://github.com/BedirhanUYGUN/Maas-Anomali/releases/latest) |
+
 ## 🚀 Çalıştırma
 
 1. `dist/MaasAnomali.exe` dosyasını bilgisayarınızın herhangi bir yerine kopyalayın.

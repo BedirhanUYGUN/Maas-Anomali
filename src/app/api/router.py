@@ -48,7 +48,9 @@ async def list_local_files():
 @api_router.post("/analyze-local")
 async def analyze_local_file(filename: str, db: AsyncSession = Depends(get_db)):
     from src.app.core.config import settings
-    file_path = os.path.join(settings.BASE_DIR, filename)
+    # Security: Only allow filenames, not paths
+    base_name = os.path.basename(filename)
+    file_path = os.path.join(settings.BASE_DIR, base_name)
     
     if not os.path.exists(file_path):
         raise HTTPException(status_code=404, detail="Dosya bulunamadı.")
