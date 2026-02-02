@@ -1,0 +1,19 @@
+[project]
+name = "maas-anomali"
+version = "0.1.0"
+description = "Maaş Anomali Tespit Uygulaması"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pdfplumber",
+    "sqlalchemy>=2.0",
+    "aiosqlite",
+    "pydantic-settings",
+    "python-multipart",
+    "jinja2",
+    "httpx>=0.28.1",
+    "pyinstaller>=6.18.0",
+]
+
+[tool.uv]
+managed = true
