@@ -1,7 +1,7 @@
 # Maaş-Mesai Tespit Sistemi
 
 Bu uygulama, personel maaş bordrolarını (PDF) analiz ederek maaş dengesizliklerini ve aşırı mesai durumlarını otomatik olarak tespit eder. Tamamen taşınabilir (Single EXE) mimarisi sayesinde kurulum gerektirmeden her bilgisayarda çalışabilir.
-
+### Kişiye özel kullanım için yapılmıştır. 
 ## ✨ Özellikler
 
 - **PDF Veri Çıkarma**: Birden fazla bordro dosyasından otomatik veri çekme.
@@ -31,6 +31,3 @@ Bu uygulama, personel maaş bordrolarını (PDF) analiz ederek maaş dengesizlik
 - **Frontend**: React (Vite)
 - **Paketleme**: PyInstaller (Single File, Windowed)
 - **Veritabanı**: SQLite (Geçici oturum bazlı)
-
----
-*Geliştirici: Antigravity*
